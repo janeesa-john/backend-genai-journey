@@ -24,5 +24,6 @@ This folder contains Python programs focused on understanding and practicing fun
 * `simple_bill_calculator.py` → Practices functions, arguments, and return statements
 * `types_of_arguments.py` → Demonstrates different types of function arguments with practical examples
 * `variable_scope.py` → Demonstrates local, global, nonlocal, and built-in scope using practical examples
+* `return_statements.py` → Demonstrates the difference between `print()` and `return` using practical examples
 
 More function-based concepts and programs will be added as the learning journey progresses.
