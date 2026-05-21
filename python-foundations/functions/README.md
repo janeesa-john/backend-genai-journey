@@ -11,6 +11,7 @@ This folder contains Python programs focused on understanding and practicing fun
 * Arbitrary positional arguments (`*args`)
 * Arbitrary keyword arguments (`**kwargs`)
 * Return statements
+* Nested functions
 * Variable scope
 
   * Local scope
@@ -25,5 +26,6 @@ This folder contains Python programs focused on understanding and practicing fun
 * `types_of_arguments.py` → Demonstrates different types of function arguments with practical examples
 * `variable_scope.py` → Demonstrates local, global, nonlocal, and built-in scope using practical examples
 * `return_statements.py` → Demonstrates the difference between `print()` and `return` using practical examples
+* `nested_functions.py` → Demonstrates nested functions using practical workflow examples like user registration and order processing
 
 More function-based concepts and programs will be added as the learning journey progresses.
