@@ -8,6 +8,8 @@ def calculate_bill(price1, price2):
 
 calculate_bill(100, 200)
 
+print("------------------")
+
 # Using return
 
 def calculate_bill(price1, price2):
@@ -20,6 +22,8 @@ def calculate_bill(price1, price2):
 result = calculate_bill(100, 200)
 
 print("Total:", result)
+
+print("------------------")
 
 # Reusing returned value
 
@@ -36,3 +40,5 @@ average = result / 3
 
 print("Total Marks:", result)
 print("Average:", average)
+
+print("------------------")
