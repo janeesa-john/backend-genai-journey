@@ -24,6 +24,9 @@ This repository documents my progression from Python fundamentals to backend eng
 backend-genai-journey/
 │
 ├── python-foundations/
+│   ├── functions/
+│   └── data-structures/
+│
 ├── mini-projects/
 ├── django-basics/
 ├── django-rest-framework/
@@ -49,6 +52,37 @@ Topics include:
 * OOP Concepts
 * Problem Solving
 * CLI-Based Mini Programs
+
+---
+
+# ✅ Current Progress
+
+### Functions
+
+* Types of arguments
+* Variable scopes
+
+  * Local scope
+  * Global scope
+  * Nonlocal scope
+  * Built-in scope
+* Return statements
+* Nested functions
+
+### Lists
+
+* List basics and operations
+* List methods
+* List-based problem solving
+
+  * Largest number in list
+  * Smallest number in list
+  * Sum of list elements
+  * Count even and odd numbers
+  * Remove duplicates
+  * Find second largest number
+
+More foundational concepts and problem-solving exercises are being added consistently.
 
 ---
 
