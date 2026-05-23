@@ -94,3 +94,88 @@ for num in numbers:
         sec_large = num
 
 print("Second Largest:", sec_large)
+
+print("------------------")
+
+# Search element in a list
+
+numbers = [1, 2, 3, 4, 5, 6]
+
+search = int(input("Enter a number to search: "))
+
+if search in numbers:
+    print("Element Found")
+
+else:
+    print("Element Not Found")
+
+print("------------------")
+
+
+# Reverse a list without using reverse()
+
+l = [1, 2, 3, 4]
+
+rev_l = []
+
+for num in range(len(l) - 1, -1, -1):
+
+    rev_l.append(l[num])
+
+print("Reversed List:", rev_l)
+
+print("------------------")
+
+
+# Count occurrences of an element
+
+numbers = [1, 2, 2, 3, 2, 4]
+
+search = int(input("Enter a number: "))
+
+count_num = 0
+
+for num in numbers:
+
+    if search == num:
+        count_num += 1
+
+print(f"{search} appears {count_num} times")
+
+print("------------------")
+
+
+# Separate even and odd numbers into different lists
+
+numbers = [1, 2, 3, 4, 5, 6]
+
+even = []
+odd = []
+
+for num in numbers:
+
+    if num % 2 == 0:
+        even.append(num)
+
+    else:
+        odd.append(num)
+
+print("Even:", even)
+print("Odd:", odd)
+
+print("------------------")
+
+
+# Find common elements between two lists
+
+list1 = [1, 2, 3, 4]
+list2 = [3, 4, 5, 6]
+
+common = []
+
+for num in list1:
+
+    if num in list2:
+        common.append(num)
+
+print("Common elements:", common)
