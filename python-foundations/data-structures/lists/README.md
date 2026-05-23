@@ -17,8 +17,10 @@ This folder contains Python programs focused on understanding and practicing lis
 ## Programs
 
 * `list_basics.py` → Demonstrates basic list operations like creating, updating, adding, removing, and iterating through lists
+
 * `list_methods.py` → Demonstrates commonly used Python list methods with practical examples
-* `list_problems.py` → Contains foundational list-based problem-solving exercises using loops and conditional logic
+
+* `list_problems.py` → Contains foundational list-based problem-solving exercises using loops, conditions, filtering, searching, and comparison logic
 
 ## Problems Practiced
 
@@ -28,5 +30,8 @@ This folder contains Python programs focused on understanding and practicing lis
 * Count even and odd numbers
 * Remove duplicates from a list
 * Find second largest number in a list
-
-More list-based problems and concepts will be added as the learning journey progresses.
+* Search element in a list
+* Reverse a list without using `reverse()`
+* Count occurrences of an element
+* Separate even and odd numbers into different lists
+* Find common elements between two lists
