@@ -1,6 +1,6 @@
 # Dictionaries
 
-This folder contains Python programs focused on understanding and practicing dictionaries in Python through practical examples and backend-oriented data handling concepts.
+This folder contains Python programs focused on understanding and practicing dictionaries in Python through practical examples, problem-solving exercises, and backend-oriented data handling concepts.
 
 ## Topics Covered
 
@@ -12,6 +12,9 @@ This folder contains Python programs focused on understanding and practicing dic
 * Iterating through dictionaries
 * Dictionary methods
 * Working with keys and values
+* Dictionary transformations
+* Frequency counting
+* Grouping and categorizing data
 * Backend-style data representation
 
 ## Programs
@@ -19,6 +22,8 @@ This folder contains Python programs focused on understanding and practicing dic
 * `dictionary_basics.py` → Demonstrates basic dictionary operations like creating, accessing, updating, adding, removing, and iterating through dictionaries
 
 * `dictionary_methods.py` → Demonstrates commonly used Python dictionary methods with practical examples
+
+* `dictionary_problems.py` → Contains dictionary-based problem-solving exercises using loops, conditions, counting, grouping, filtering, and transformation logic
 
 ## Dictionary Methods Practiced
 
@@ -29,4 +34,16 @@ This folder contains Python programs focused on understanding and practicing dic
 * `update()`
 * `pop()`
 
-More dictionary concepts and problem-solving exercises will be added as the learning journey progresses.
+## Problems Practiced
+
+* Count frequency of elements in a list
+* Student marks management system
+* Find student with highest marks
+* Count frequency of characters in a string
+* Merge two dictionaries
+* Invert a dictionary
+* Separate even and odd numbers using dictionary
+* Group words by first letter
+* Find product with highest price
+
+More dictionary concepts and backend-oriented problem-solving exercises will be added as the learning journey progresses.
