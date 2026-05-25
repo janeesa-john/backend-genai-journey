@@ -35,20 +35,32 @@ The goal of this section is to strengthen core programming logic, problem-solvin
 * Dictionary basics
 * Dictionary methods
 * Iterating through dictionaries
+* Frequency counting
+* Dictionary transformations
+* Grouping and categorizing data
 * Backend-style data representation
+* Dictionary problem solving
 
 ---
 
 # 📂 Folder Structure
 
-```text id="0xl18u"
+```text
 python-foundations/
 │
 ├── functions/
 │
 └── data-structures/
+    │
     ├── lists/
+    │   ├── list_basics.py
+    │   ├── list_methods.py
+    │   └── list_problems.py
+    │
     └── dictionaries/
+        ├── dictionary_basics.py
+        ├── dictionary_methods.py
+        └── dictionary_problems.py
 ```
 
 ---
