@@ -41,6 +41,18 @@ The goal of this section is to strengthen core programming logic, problem-solvin
 * Backend-style data representation
 * Dictionary problem solving
 
+### Tuples
+
+* Tuple basics
+* Tuple methods
+* Tuple immutability
+* Tuple packing and unpacking
+* Tuple traversal
+* Tuple searching and comparison logic
+* Tuple slicing and reversing
+* Tuple conversion techniques
+* Tuple problem solving
+
 ---
 
 # 📂 Folder Structure
@@ -57,10 +69,15 @@ python-foundations/
     │   ├── list_methods.py
     │   └── list_problems.py
     │
-    └── dictionaries/
-        ├── dictionary_basics.py
-        ├── dictionary_methods.py
-        └── dictionary_problems.py
+    ├── dictionaries/
+    │   ├── dictionary_basics.py
+    │   ├── dictionary_methods.py
+    │   └── dictionary_problems.py
+    │
+    └── tuples/
+        ├── tuple_basics.py
+        ├── tuple_methods.py
+        └── tuple_problems.py
 ```
 
 ---
@@ -73,5 +90,7 @@ python-foundations/
 * Backend programming foundations
 * Practical implementation
 * Structured learning progression
+* Reusable programming patterns
+* Backend-oriented data handling
 
 More Python concepts, data structures, and problem-solving exercises will be added as the learning journey progresses.
