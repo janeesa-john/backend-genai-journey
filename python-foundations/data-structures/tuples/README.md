@@ -22,6 +22,8 @@ Tuples are immutable data structures used to store ordered collections of values
 * Tuple searching and comparison logic
 * Tuple slicing and reversing
 * Tuple conversion techniques
+* Tuple filtering and frequency counting
+* Tuple problem solving
 
 ## Programs
 
@@ -29,7 +31,7 @@ Tuples are immutable data structures used to store ordered collections of values
 
 * `tuple_methods.py` → Demonstrates commonly used tuple methods and tuple traversal examples
 
-* `tuple_problems.py` → Contains tuple-based problem-solving exercises using loops, searching, counting, comparison, traversal, conversion, and slicing logic
+* `tuple_problems.py` → Contains tuple-based problem-solving exercises using loops, searching, counting, filtering, traversal, conversion, slicing, comparison, and dictionary integration logic
 
 ## Tuple Methods Practiced
 
@@ -46,6 +48,11 @@ Tuples are immutable data structures used to store ordered collections of values
 * Find common elements between tuples
 * Convert tuple to list and list to tuple
 * Reverse a tuple using slicing
+* Find second largest element in tuple
+* Remove duplicates from tuple
+* Find frequency of elements in tuple
+* Find even and odd numbers from tuple
+* Find maximum and minimum element in one loop
 
 ## Key Concepts Learned
 
@@ -56,6 +63,8 @@ Tuples are immutable data structures used to store ordered collections of values
 * Membership operations
 * Tuple slicing
 * Data structure conversion
+* Filtering and comparison logic
+* Frequency counting using dictionaries
 * Reusing logic patterns across data structures
 
 More tuple concepts and tuple-based problem-solving exercises will be added as the learning journey progresses.
