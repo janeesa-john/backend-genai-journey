@@ -1,6 +1,6 @@
 # Tuples
 
-This folder contains Python programs focused on understanding and practicing tuples in Python through practical examples and foundational problem-solving exercises.
+This folder contains Python programs focused on understanding and practicing tuples in Python through practical examples and foundational-to-intermediate problem-solving exercises.
 
 Tuples are immutable data structures used to store ordered collections of values that should not be modified after creation.
 
@@ -23,6 +23,8 @@ Tuples are immutable data structures used to store ordered collections of values
 * Tuple slicing and reversing
 * Tuple conversion techniques
 * Tuple filtering and frequency counting
+* Nested loop logic using tuples
+* Pair-based comparison problems
 * Tuple problem solving
 
 ## Programs
@@ -31,7 +33,7 @@ Tuples are immutable data structures used to store ordered collections of values
 
 * `tuple_methods.py` → Demonstrates commonly used tuple methods and tuple traversal examples
 
-* `tuple_problems.py` → Contains tuple-based problem-solving exercises using loops, searching, counting, filtering, traversal, conversion, slicing, comparison, and dictionary integration logic
+* `tuple_problems.py` → Contains tuple-based problem-solving exercises using loops, searching, counting, filtering, traversal, conversion, slicing, comparison, sorting, nested loops, and dictionary integration logic
 
 ## Tuple Methods Practiced
 
@@ -53,6 +55,12 @@ Tuples are immutable data structures used to store ordered collections of values
 * Find frequency of elements in tuple
 * Find even and odd numbers from tuple
 * Find maximum and minimum element in one loop
+* Sort tuple without using `sort()`
+* Find missing number in tuple
+* Rotate tuple elements
+* Find pair with given sum in tuple
+* Find pairs with equal sum
+* Check palindrome tuple
 
 ## Key Concepts Learned
 
@@ -65,6 +73,9 @@ Tuples are immutable data structures used to store ordered collections of values
 * Data structure conversion
 * Filtering and comparison logic
 * Frequency counting using dictionaries
+* Nested loop comparisons
+* Manual sorting and swapping logic
+* Pair-based searching techniques
 * Reusing logic patterns across data structures
 
 More tuple concepts and tuple-based problem-solving exercises will be added as the learning journey progresses.
