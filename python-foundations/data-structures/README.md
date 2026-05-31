@@ -1,8 +1,8 @@
 # Data Structures
 
-This folder contains Python programs focused on understanding and practicing core Python data structures through practical examples, hands-on implementation, and problem-solving exercises.
+This folder contains Python programs focused on understanding and practicing core Python data structures through practical examples, hands-on implementation, and beginner-to-intermediate level problem-solving exercises.
 
-The goal of this section is to strengthen programming fundamentals, logical thinking, data handling skills, and backend-oriented problem-solving using commonly used Python data structures.
+The goal of this section is to strengthen programming fundamentals, logical thinking, data handling skills, algorithmic thinking, and backend-oriented problem-solving using commonly used Python data structures.
 
 ---
 
@@ -40,6 +40,8 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Tuple slicing and reversing
 * Tuple conversion techniques
 * Tuple filtering and frequency counting
+* Nested loop logic using tuples
+* Pair-based comparison problems
 * Tuple problem solving
 
 ---
@@ -75,10 +77,12 @@ data-structures/
 * Core Python data structures
 * Problem solving
 * Logic building
+* Algorithmic thinking
 * Data traversal and manipulation
 * Filtering and comparison techniques
 * Frequency counting and grouping logic
+* Nested loop problem solving
 * Backend-oriented data handling
 * Reusable programming patterns
 
-More data structures, concepts, and practical problem-solving exercises will be added as the learning journey progresses.
+More data structures, concepts, algorithms, and practical problem-solving exercises will be added as the learning journey progresses.
