@@ -401,3 +401,107 @@ for num in numbers:
 
 print("Maximum:", large)
 print("Minimum:", small)
+
+print("------------------")
+
+
+# Sort tuple without using sort()
+
+numbers = (4, 2, 8, 1)
+
+numbers_list = list(numbers)
+
+for i in range(len(numbers_list)):
+
+    for j in range(i + 1, len(numbers_list)):
+
+        if numbers_list[i] > numbers_list[j]:
+
+            numbers_list[i], numbers_list[j] = numbers_list[j], numbers_list[i]
+
+sorted_tuple = tuple(numbers_list)
+
+print(sorted_tuple)
+
+print("------------------")
+
+
+# Find missing number in tuple
+
+numbers = (1, 2, 3, 5)
+
+for num in range(1, 6):
+
+    if num not in numbers:
+
+        print("Missing Number:", num)
+
+print("------------------")
+
+
+# Rotate tuple elements
+
+numbers = (1, 2, 3, 4, 5)
+
+rotated = numbers[1:] + numbers[:1]
+
+print("Rotated Tuple:", rotated)
+
+print("------------------")
+
+
+# Find pair with given sum in tuple
+
+numbers = (1, 2, 3, 4, 5)
+
+target = 7
+
+for i in range(len(numbers)):
+
+    for j in range(i + 1, len(numbers)):
+
+        if numbers[i] + numbers[j] == target:
+
+            print(f"Pair Found: {numbers[i]} {numbers[j]}")
+
+print("------------------")
+
+
+# Find pairs with equal sum
+
+numbers = (1, 2, 3, 4, 5)
+
+new = {}
+
+for i in range(len(numbers)):
+
+    for j in range(i + 1, len(numbers)):
+
+        total = numbers[i] + numbers[j]
+
+        if total not in new:
+
+            new[total] = [(numbers[i], numbers[j])]
+
+        else:
+
+            new[total].append((numbers[i], numbers[j]))
+
+print("Pairs Grouped By Sum:", new)
+
+print("------------------")
+
+
+# Check palindrome tuple
+
+numbers = (1, 2, 3, 2, 1)
+
+reverse = numbers[::-1]
+
+if numbers == reverse:
+
+    print("Palindrome Tuple")
+
+else:
+
+    print("Not Palindrome")
