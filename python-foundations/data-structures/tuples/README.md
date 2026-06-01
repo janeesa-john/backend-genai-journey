@@ -1,6 +1,6 @@
 # Tuples
 
-This folder contains Python programs focused on understanding and practicing tuples in Python through practical examples and foundational-to-intermediate problem-solving exercises.
+This folder contains Python programs focused on understanding and practicing tuples in Python through practical examples and beginner-to-intermediate level problem-solving exercises.
 
 Tuples are immutable data structures used to store ordered collections of values that should not be modified after creation.
 
@@ -25,6 +25,8 @@ Tuples are immutable data structures used to store ordered collections of values
 * Tuple filtering and frequency counting
 * Nested loop logic using tuples
 * Pair-based comparison problems
+* Tuple and string integration
+* Grouping and transformation logic
 * Tuple problem solving
 
 ## Programs
@@ -33,7 +35,7 @@ Tuples are immutable data structures used to store ordered collections of values
 
 * `tuple_methods.py` → Demonstrates commonly used tuple methods and tuple traversal examples
 
-* `tuple_problems.py` → Contains tuple-based problem-solving exercises using loops, searching, counting, filtering, traversal, conversion, slicing, comparison, sorting, nested loops, and dictionary integration logic
+* `tuple_problems.py` → Contains tuple-based problem-solving exercises using loops, searching, counting, filtering, traversal, conversion, slicing, comparison, sorting, nested loops, dictionaries, grouping logic, and tuple-string integration concepts
 
 ## Tuple Methods Practiced
 
@@ -61,6 +63,15 @@ Tuples are immutable data structures used to store ordered collections of values
 * Find pair with given sum in tuple
 * Find pairs with equal sum
 * Check palindrome tuple
+* Check whether two tuples are identical
+* Count vowels in tuple of strings
+* Find longest word in tuple
+* Find shortest word in tuple
+* Count words starting with vowel
+* Count ending letters of words
+* Find most repeated ending letter
+* Group words by length
+* Create dictionary from tuple of words
 
 ## Key Concepts Learned
 
@@ -76,6 +87,9 @@ Tuples are immutable data structures used to store ordered collections of values
 * Nested loop comparisons
 * Manual sorting and swapping logic
 * Pair-based searching techniques
+* Tuple and string traversal integration
+* Dynamic dictionary grouping
+* Data transformation logic
 * Reusing logic patterns across data structures
 
 More tuple concepts and tuple-based problem-solving exercises will be added as the learning journey progresses.
