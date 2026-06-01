@@ -42,6 +42,8 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Tuple filtering and frequency counting
 * Nested loop logic using tuples
 * Pair-based comparison problems
+* Tuple and string integration
+* Grouping and transformation logic
 * Tuple problem solving
 
 ---
@@ -83,6 +85,7 @@ data-structures/
 * Frequency counting and grouping logic
 * Nested loop problem solving
 * Backend-oriented data handling
+* Data transformation techniques
 * Reusable programming patterns
 
 More data structures, concepts, algorithms, and practical problem-solving exercises will be added as the learning journey progresses.
