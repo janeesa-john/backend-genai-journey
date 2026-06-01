@@ -505,3 +505,194 @@ if numbers == reverse:
 else:
 
     print("Not Palindrome")
+
+print("------------------")
+
+
+# Check whether two tuples are identical
+
+tuple1 = (1, 2, 3)
+
+tuple2 = (1, 2, 3)
+
+if len(tuple1) == len(tuple2):
+
+    for i in range(len(tuple1)):
+
+        if tuple1[i] != tuple2[i]:
+
+            print("Not identical")
+            break
+
+    else:
+
+        print("Identical")
+
+else:
+
+    print("Not identical")
+
+print("------------------")
+
+
+# Count vowels in tuple of strings
+
+words = ("apple", "banana", "orange")
+
+vowels = 'AEIOUaeiou'
+
+count_vowel = 0
+
+for word in words:
+
+    for ch in word:
+
+        if ch in vowels:
+
+            count_vowel += 1
+
+print("Total Vowels:", count_vowel)
+
+print("------------------")
+
+
+# Find longest word in tuple
+
+words = ("apple", "banana", "orange", "kiwi")
+
+long = words[0]
+
+for word in words:
+
+    if len(word) > len(long):
+
+        long = word
+
+print("Longest Word:", long)
+
+print("------------------")
+
+
+# Find shortest word in tuple
+
+words = ("apple", "banana", "orange", "kiwi")
+
+short = words[0]
+
+for word in words:
+
+    if len(word) < len(short):
+
+        short = word
+
+print("Shortest Word:", short)
+
+print("------------------")
+
+
+# Count words starting with vowel
+
+words = ("apple", "banana", "orange", "umbrella", "grape")
+
+vowels = 'aeiou'
+
+vowel_word = 0
+
+for word in words:
+
+    if word[0].lower() in vowels:
+
+        vowel_word += 1
+
+print("Words Starting With Vowel:", vowel_word)
+
+print("------------------")
+
+
+# Count ending letters of words
+
+words = ("apple", "table", "grape", "kite")
+
+dict_end = {}
+
+for word in words:
+
+    if word[-1] not in dict_end:
+
+        dict_end[word[-1]] = 1
+
+    else:
+
+        dict_end[word[-1]] += 1
+
+print(dict_end)
+
+print("------------------")
+
+
+# Find most repeated ending letter
+
+words = ("apple", "table", "grape", "kite", "banana")
+
+dict_end = {}
+
+count_last = 0
+
+top_letter = ""
+
+for word in words:
+
+    if word[-1] in dict_end:
+
+        dict_end[word[-1]] += 1
+
+    else:
+
+        dict_end[word[-1]] = 1
+
+for key, value in dict_end.items():
+
+    if value > count_last:
+
+        count_last = value
+        top_letter = key
+
+print("Most Repeated Ending Letter:", top_letter)
+
+print("------------------")
+
+
+# Group words by length
+
+words = ("apple", "dog", "banana", "cat", "orange")
+
+group = {}
+
+for word in words:
+
+    if len(word) not in group:
+
+        group[len(word)] = []
+
+        group[len(word)].append(word)
+
+    else:
+
+        group[len(word)].append(word)
+
+print(group)
+
+print("------------------")
+
+
+# Create dictionary from tuple of words
+
+words = ("apple", "banana", "cat")
+
+group = {}
+
+for word in words:
+
+    group[word] = len(word)
+
+print(group)
