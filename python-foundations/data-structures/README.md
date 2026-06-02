@@ -44,6 +44,8 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Pair-based comparison problems
 * Tuple and string integration
 * Grouping and transformation logic
+* Character frequency analysis
+* Multi-step data processing
 * Tuple problem solving
 
 ---
@@ -86,6 +88,7 @@ data-structures/
 * Nested loop problem solving
 * Backend-oriented data handling
 * Data transformation techniques
+* Character analysis and string processing
 * Reusable programming patterns
 
 More data structures, concepts, algorithms, and practical problem-solving exercises will be added as the learning journey progresses.
