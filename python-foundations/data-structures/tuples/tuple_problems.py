@@ -696,3 +696,92 @@ for word in words:
     group[word] = len(word)
 
 print(group)
+
+print("------------------")
+
+
+# Find word with maximum vowels
+
+words = ("apple", "banana", "education", "cat")
+
+max_vowel_count = 0
+
+max_vowel = ''
+
+for word in words:
+
+    max_count = 0
+
+    for ch in word:
+
+        if ch.lower() in 'aeiou':
+
+            max_count += 1
+
+    if max_count > max_vowel_count:
+
+        max_vowel_count = max_count
+        max_vowel = word
+
+print("Word With Maximum Vowels:", max_vowel)
+
+print("------------------")
+
+
+# Find word with minimum vowels
+
+words = ("apple", "banana", "education", "cat")
+
+min_vowel_count = float('inf')
+
+min_vowel = ''
+
+for word in words:
+
+    count = 0
+
+    for ch in word:
+
+        if ch.lower() in 'aeiou':
+
+            count += 1
+
+    if count < min_vowel_count:
+
+        min_vowel_count = count
+        min_vowel = word
+
+print("Word With Minimum Vowels:", min_vowel)
+
+print("------------------")
+
+
+# Find first repeating character in tuple of words
+
+words = ("apple", "banana", "cat")
+
+for word in words:
+
+    freq = {}
+
+    for ch in word:
+
+        if ch in freq:
+
+            freq[ch] += 1
+
+        else:
+
+            freq[ch] = 1
+
+    for ch in word:
+
+        if freq[ch] > 1:
+
+            print(word, "->", ch)
+
+            break
+
+    else:
+
+        print(word, "-> No repeating character")
