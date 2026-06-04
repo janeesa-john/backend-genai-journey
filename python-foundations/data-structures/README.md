@@ -48,6 +48,23 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Multi-step data processing
 * Tuple problem solving
 
+## Sets
+
+* Set basics
+* Set methods
+* Set uniqueness
+* Duplicate removal using sets
+* Membership checking
+* Mathematical set operations
+* Set traversal
+* Filtering logic using sets
+* Set comparison logic
+* Validation logic using `for-else`
+* Running maximum and minimum logic
+* Accumulator pattern
+* Classification and categorization logic
+* Set problem solving
+
 ---
 
 # 📂 Folder Structure
@@ -67,10 +84,16 @@ data-structures/
 │   ├── dictionary_problems.py
 │   └── README.md
 │
-└── tuples/
-    ├── tuple_basics.py
-    ├── tuple_methods.py
-    ├── tuple_problems.py
+├── tuples/
+│   ├── tuple_basics.py
+│   ├── tuple_methods.py
+│   ├── tuple_problems.py
+│   └── README.md
+│
+└── sets/
+    ├── set_basics.py
+    ├── set_methods.py
+    ├── set_problems.py
     └── README.md
 ```
 
@@ -89,6 +112,7 @@ data-structures/
 * Backend-oriented data handling
 * Data transformation techniques
 * Character analysis and string processing
+* Validation and classification logic
 * Reusable programming patterns
 
 More data structures, concepts, algorithms, and practical problem-solving exercises will be added as the learning journey progresses.
