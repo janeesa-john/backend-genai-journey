@@ -18,6 +18,17 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Duplicate handling
 * List-based problem solving
 
+### Problems Practiced
+
+* Largest and smallest element in list
+* Sum of list elements
+* Count even and odd numbers
+* Remove duplicates from lists
+* Find second largest element
+* Manual sorting using swapping logic
+
+---
+
 ## Dictionaries
 
 * Dictionary basics
@@ -28,6 +39,16 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Grouping and categorizing data
 * Backend-style data representation
 * Dictionary problem solving
+
+### Problems Practiced
+
+* Character frequency counting
+* Word grouping logic
+* Counting occurrences
+* Grouping data based on conditions
+* Dictionary-based transformations
+
+---
 
 ## Tuples
 
@@ -48,6 +69,21 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Multi-step data processing
 * Tuple problem solving
 
+### Problems Practiced
+
+* Check whether tuples are identical
+* Palindrome tuple checking
+* Count vowels from tuple of words
+* Find longest and shortest word
+* Count words starting with vowels
+* Group words by length
+* Character frequency analysis
+* Pair-sum logic
+* Maximum and minimum vowel problems
+* Nested traversal problems
+
+---
+
 ## Sets
 
 * Set basics
@@ -57,19 +93,35 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Membership checking
 * Mathematical set operations
 * Set traversal
-* Filtering logic using sets
+* Set filtering logic
 * Set comparison logic
 * Validation logic using `for-else`
 * Running maximum and minimum logic
 * Accumulator pattern
 * Classification and categorization logic
+* Filtered counting logic
 * Set problem solving
+
+### Problems Practiced
+
+* Find common elements between sets
+* Find unique elements from sets
+* Find set differences
+* Check disjoint sets
+* Subset and superset validation
+* Maximum and minimum element in set
+* Sum of set elements
+* Count even and odd numbers
+* Find largest even number
+* Find smallest odd number
+* Count positive and negative numbers
+* Count numbers divisible by 3
 
 ---
 
 # 📂 Folder Structure
 
-```text id="ywr80m"
+```text id="a82kdu"
 data-structures/
 │
 ├── lists/
