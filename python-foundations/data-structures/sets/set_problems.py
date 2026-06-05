@@ -189,3 +189,63 @@ for num in numbers:
             large_even = num
 
 print(large_even)
+
+print("------------------")
+
+# Find smallest odd number in set
+
+numbers = {1, 8, 3, 10, 5, 6}
+
+small = float('inf')
+
+for num in numbers:
+
+    if num % 2 != 0:
+
+        if num < small:
+
+            small = num
+
+print(small)
+
+print("------------------")
+
+
+# Count positive and negative numbers in set
+
+numbers = {1, -2, 3, -4, 5, -6}
+
+count_pos = 0
+
+count_neg = 0
+
+for num in numbers:
+
+    if num < 0:
+
+        count_neg += 1
+
+    elif num > 0:
+
+        count_pos += 1
+
+print("Positive Count:", count_pos)
+
+print("Negative Count:", count_neg)
+
+print("------------------")
+
+
+# Count numbers divisible by 3 in set
+
+numbers = {1, 3, 6, 8, 9, 10, 12}
+
+count_div = 0
+
+for num in numbers:
+
+    if num % 3 == 0:
+
+        count_div += 1
+
+print(count_div)
