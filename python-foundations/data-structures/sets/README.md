@@ -2,7 +2,7 @@
 
 This folder contains Python programs focused on understanding and practicing sets in Python through practical examples and beginner-to-intermediate level problem-solving exercises.
 
-Sets are unordered mutable data structures used to store unique elements. They are commonly used for duplicate removal, membership checking, filtering logic, mathematical set operations, and comparison-based problem solving.
+Sets are unordered mutable data structures used to store unique elements. They are commonly used for duplicate removal, membership checking, filtering logic, mathematical set operations, validation logic, and comparison-based problem solving.
 
 ## Topics Covered
 
@@ -25,6 +25,7 @@ Sets are unordered mutable data structures used to store unique elements. They a
 * Running maximum and minimum logic
 * Accumulator pattern
 * Classification and categorization logic
+* Filtered counting logic
 
 ## Programs
 
@@ -62,6 +63,9 @@ Sets are unordered mutable data structures used to store unique elements. They a
 * Find sum of elements in set
 * Count even and odd numbers in set
 * Find largest even number in set
+* Find smallest odd number in set
+* Count positive and negative numbers in set
+* Count numbers divisible by 3 in set
 
 ## Key Concepts Learned
 
@@ -78,6 +82,7 @@ Sets are unordered mutable data structures used to store unique elements. They a
 * Running maximum and minimum patterns
 * Accumulator logic
 * Classification and grouping logic
+* Filtered counting techniques
 * Reusable algorithmic patterns
 
 More set concepts and set-based problem-solving exercises will be added as the learning journey progresses.
