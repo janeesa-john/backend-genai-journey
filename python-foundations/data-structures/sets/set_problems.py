@@ -249,3 +249,157 @@ for num in numbers:
         count_div += 1
 
 print(count_div)
+
+print("------------------")
+
+
+# Find union of two sets without using union()
+
+set1 = {1, 2, 3}
+
+set2 = {3, 4, 5}
+
+new_set = set()
+
+for num in set1:
+
+    new_set.add(num)
+
+for num in set2:
+
+    new_set.add(num)
+
+print(new_set)
+
+print("------------------")
+
+
+# Find intersection of two sets without using intersection()
+
+set1 = {1, 2, 3, 4}
+
+set2 = {3, 4, 5, 6}
+
+new_set = set()
+
+for num in set1:
+
+    if num in set2:
+
+        new_set.add(num)
+
+print(new_set)
+
+print("------------------")
+
+
+# Find difference of two sets without using difference()
+
+set1 = {1, 2, 3, 4}
+
+set2 = {3, 4, 5, 6}
+
+new_set = set()
+
+for num in set1:
+
+    if num not in set2:
+
+        new_set.add(num)
+
+print(new_set)
+
+print("------------------")
+
+
+# Find symmetric difference without using symmetric_difference()
+
+set1 = {1, 2, 3, 4}
+
+set2 = {3, 4, 5, 6}
+
+new_set = set()
+
+for num in set1:
+
+    if num not in set2:
+
+        new_set.add(num)
+
+for num in set2:
+
+    if num not in set1:
+
+        new_set.add(num)
+
+print(new_set)
+
+print("------------------")
+
+
+# Count common elements between two sets without using intersection()
+
+set1 = {1, 2, 3, 4}
+
+set2 = {3, 4, 5, 6}
+
+count_com = 0
+
+for num in set1:
+
+    if num in set2:
+
+        count_com += 1
+
+print(count_com)
+
+print("------------------")
+
+
+# Create set of even numbers from another set
+
+numbers = {1, 2, 3, 4, 5, 6}
+
+even = set()
+
+for num in numbers:
+
+    if num % 2 == 0:
+
+        even.add(num)
+
+print(even)
+
+print("------------------")
+
+
+# Create set of odd numbers from another set
+
+numbers = {1, 2, 3, 4, 5, 6}
+
+odd = set()
+
+for num in numbers:
+
+    if num % 2 != 0:
+
+        odd.add(num)
+
+print(odd)
+
+print("------------------")
+
+
+# Create set of numbers divisible by 3
+
+numbers = {1, 3, 4, 6, 7, 9, 10, 12}
+
+div_3 = set()
+
+for num in numbers:
+
+    if num % 3 == 0:
+
+        div_3.add(num)
+
+print(div_3)
