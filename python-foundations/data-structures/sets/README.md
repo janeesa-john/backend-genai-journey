@@ -2,7 +2,7 @@
 
 This folder contains Python programs focused on understanding and practicing sets in Python through practical examples and beginner-to-intermediate level problem-solving exercises.
 
-Sets are unordered mutable data structures used to store unique elements. They are commonly used for duplicate removal, membership checking, filtering logic, mathematical set operations, validation logic, and comparison-based problem solving.
+Sets are unordered mutable data structures used to store unique elements. They are commonly used for duplicate removal, membership checking, filtering logic, mathematical set operations, validation logic, transformation logic, and comparison-based problem solving.
 
 ## Topics Covered
 
@@ -26,6 +26,8 @@ Sets are unordered mutable data structures used to store unique elements. They a
 * Accumulator pattern
 * Classification and categorization logic
 * Filtered counting logic
+* Manual implementation of set operations
+* Transformation and filtering patterns
 
 ## Programs
 
@@ -33,7 +35,7 @@ Sets are unordered mutable data structures used to store unique elements. They a
 
 * `set_methods.py` → Demonstrates commonly used set methods and mathematical set operations
 
-* `set_problems.py` → Contains beginner-friendly set problem-solving exercises using traversal, filtering, comparison, validation, accumulation, classification, and mathematical set operation concepts
+* `set_problems.py` → Contains beginner-friendly to intermediate-level set problem-solving exercises using traversal, filtering, comparison, validation, accumulation, classification, transformation, and manual set operation concepts
 
 ## Set Methods Practiced
 
@@ -66,6 +68,14 @@ Sets are unordered mutable data structures used to store unique elements. They a
 * Find smallest odd number in set
 * Count positive and negative numbers in set
 * Count numbers divisible by 3 in set
+* Find union without using `union()`
+* Find intersection without using `intersection()`
+* Find difference without using `difference()`
+* Find symmetric difference without using `symmetric_difference()`
+* Count common elements without using `intersection()`
+* Create set of even numbers
+* Create set of odd numbers
+* Create set of numbers divisible by 3
 
 ## Key Concepts Learned
 
@@ -83,6 +93,8 @@ Sets are unordered mutable data structures used to store unique elements. They a
 * Accumulator logic
 * Classification and grouping logic
 * Filtered counting techniques
+* Manual implementation logic
+* Transformation and filtering patterns
 * Reusable algorithmic patterns
 
 More set concepts and set-based problem-solving exercises will be added as the learning journey progresses.
