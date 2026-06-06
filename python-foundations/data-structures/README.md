@@ -100,6 +100,8 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Accumulator pattern
 * Classification and categorization logic
 * Filtered counting logic
+* Manual implementation of set operations
+* Transformation and filtering patterns
 * Set problem solving
 
 ### Problems Practiced
@@ -116,12 +118,20 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Find smallest odd number
 * Count positive and negative numbers
 * Count numbers divisible by 3
+* Manual union implementation
+* Manual intersection implementation
+* Manual difference implementation
+* Manual symmetric difference implementation
+* Count common elements manually
+* Create set of even numbers
+* Create set of odd numbers
+* Create set of numbers divisible by 3
 
 ---
 
 # 📂 Folder Structure
 
-```text id="a82kdu"
+```text id="u3wk91"
 data-structures/
 │
 ├── lists/
@@ -165,6 +175,8 @@ data-structures/
 * Data transformation techniques
 * Character analysis and string processing
 * Validation and classification logic
+* Manual implementation logic
+* Transformation and filtering patterns
 * Reusable programming patterns
 
 More data structures, concepts, algorithms, and practical problem-solving exercises will be added as the learning journey progresses.
