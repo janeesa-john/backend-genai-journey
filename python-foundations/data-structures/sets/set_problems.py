@@ -403,3 +403,119 @@ for num in numbers:
         div_3.add(num)
 
 print(div_3)
+
+print("------------------")
+
+
+# Find common characters between two words using sets
+
+word1 = "apple"
+
+word2 = "plate"
+
+common = set()
+
+for ch in word1:
+
+    if ch in word2:
+
+        common.add(ch)
+
+print(common)
+
+print("------------------")
+
+
+# Find unique characters from two words using sets
+
+word1 = "apple"
+
+word2 = "plate"
+
+unique = set()
+
+for ch in word1:
+
+    if ch not in word2:
+
+        unique.add(ch)
+
+for ch in word2:
+
+    if ch not in word1:
+
+        unique.add(ch)
+
+print(unique)
+
+print("------------------")
+
+
+# Count vowels using sets
+
+word = "education"
+
+vowels = {'a', 'e', 'i', 'o', 'u'}
+
+count_vowel = 0
+
+for ch in word:
+
+    if ch in vowels:
+
+        count_vowel += 1
+
+print(count_vowel)
+
+print("------------------")
+
+
+# Create set of unique vowels from word
+
+word = "education"
+
+vowels = set()
+
+for ch in word:
+
+    if ch in 'aeiou':
+
+        vowels.add(ch)
+
+print(vowels)
+
+print("------------------")
+
+
+# Find consonants using sets
+
+word = "education"
+
+consonants = set()
+
+for ch in word:
+
+    if ch not in 'aeiou' and ch.isalpha():
+
+        consonants.add(ch)
+
+print(consonants)
+
+print("------------------")
+
+
+# Find characters present only in first word
+
+word1 = "apple"
+
+word2 = "lake"
+
+new = set()
+
+for ch in word1:
+
+    if ch not in word2:
+
+        new.add(ch)
+
+print(new)
