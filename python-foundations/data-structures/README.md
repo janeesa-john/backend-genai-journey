@@ -102,6 +102,7 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Filtered counting logic
 * Manual implementation of set operations
 * Transformation and filtering patterns
+* String and set integration
 * Set problem solving
 
 ### Problems Practiced
@@ -126,12 +127,18 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Create set of even numbers
 * Create set of odd numbers
 * Create set of numbers divisible by 3
+* Find common characters between two words
+* Find unique characters from two words
+* Count vowels using sets
+* Create set of unique vowels
+* Find consonants using sets
+* Find characters present only in first word
 
 ---
 
 # 📂 Folder Structure
 
-```text id="u3wk91"
+```text id="h81vkq"
 data-structures/
 │
 ├── lists/
