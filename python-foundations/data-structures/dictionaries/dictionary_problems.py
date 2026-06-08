@@ -186,3 +186,30 @@ for product, price in products.items():
 
 print("Most Expensive Product:", top_product)
 print("Price:", highest_price)
+
+print("------------------")
+
+
+# Find first non-repeating character using dictionary
+
+word = "programming"
+
+freq = {}
+
+for ch in word:
+
+    if ch in freq:
+
+        freq[ch] += 1
+
+    else:
+
+        freq[ch] = 1
+
+for ch in word:
+
+    if freq[ch] == 1:
+
+        print(ch)
+
+        break
