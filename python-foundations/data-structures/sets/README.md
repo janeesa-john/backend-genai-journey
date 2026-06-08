@@ -29,6 +29,8 @@ Sets are unordered mutable data structures used to store unique elements. They a
 * Manual implementation of set operations
 * Transformation and filtering patterns
 * String and set integration
+* Duplicate detection logic
+* Real-time repetition tracking
 
 ## Programs
 
@@ -36,7 +38,7 @@ Sets are unordered mutable data structures used to store unique elements. They a
 
 * `set_methods.py` → Demonstrates commonly used set methods and mathematical set operations
 
-* `set_problems.py` → Contains beginner-friendly to intermediate-level set problem-solving exercises using traversal, filtering, comparison, validation, accumulation, transformation, and manual set operation concepts
+* `set_problems.py` → Contains beginner-friendly to intermediate-level set problem-solving exercises using traversal, filtering, comparison, validation, accumulation, transformation, duplicate detection, and manual set operation concepts
 
 ## Set Methods Practiced
 
@@ -83,6 +85,8 @@ Sets are unordered mutable data structures used to store unique elements. They a
 * Create set of unique vowels
 * Find consonants using sets
 * Find characters present only in first word
+* Find characters appearing more than once
+* Find first repeating character using sets
 
 ## Key Concepts Learned
 
@@ -104,6 +108,8 @@ Sets are unordered mutable data structures used to store unique elements. They a
 * Transformation and filtering patterns
 * String comparison using sets
 * Text filtering and uniqueness logic
+* Duplicate detection logic
+* Seen/unseen tracking pattern
 * Reusable algorithmic patterns
 
 More set concepts and set-based problem-solving exercises will be added as the learning journey progresses.
