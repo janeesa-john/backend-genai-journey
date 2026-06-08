@@ -519,3 +519,53 @@ for ch in word1:
         new.add(ch)
 
 print(new)
+
+print("------------------")
+
+
+# Find characters appearing more than once using sets
+
+word = "programming"
+
+freq = {}
+
+set_freq = set()
+
+for ch in word:
+
+    if ch in freq:
+
+        freq[ch] += 1
+
+    else:
+
+        freq[ch] = 1
+
+for ch, value in freq.items():
+
+    if value > 1:
+
+        set_freq.add(ch)
+
+print(set_freq)
+
+print("------------------")
+
+
+# Find first repeating character using sets
+
+word = "programming"
+
+new = set()
+
+for ch in word:
+
+    if ch in new:
+
+        print(ch)
+
+        break
+
+    else:
+
+        new.add(ch)
