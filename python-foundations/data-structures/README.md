@@ -38,6 +38,8 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Dictionary transformations
 * Grouping and categorizing data
 * Backend-style data representation
+* Validation and tracking logic
+* Ordered validation logic
 * Dictionary problem solving
 
 ### Problems Practiced
@@ -47,6 +49,8 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Counting occurrences
 * Grouping data based on conditions
 * Dictionary-based transformations
+* Track repeated characters
+* Find first non-repeating character using dictionary frequency counting
 
 ---
 
@@ -103,6 +107,8 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Manual implementation of set operations
 * Transformation and filtering patterns
 * String and set integration
+* Duplicate detection logic
+* Real-time repetition tracking
 * Set problem solving
 
 ### Problems Practiced
@@ -133,12 +139,14 @@ The goal of this section is to strengthen programming fundamentals, logical thin
 * Create set of unique vowels
 * Find consonants using sets
 * Find characters present only in first word
+* Find characters appearing more than once
+* Find first repeating character using sets
 
 ---
 
 # 📂 Folder Structure
 
-```text id="h81vkq"
+```text
 data-structures/
 │
 ├── lists/
@@ -184,6 +192,7 @@ data-structures/
 * Validation and classification logic
 * Manual implementation logic
 * Transformation and filtering patterns
+* Duplicate detection and tracking logic
 * Reusable programming patterns
 
 More data structures, concepts, algorithms, and practical problem-solving exercises will be added as the learning journey progresses.
