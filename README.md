@@ -8,7 +8,7 @@ This repository documents my progression from Python fundamentals to backend eng
 
 # 🎯 Current Focus
 
-* Python Foundations & Problem Solving
+* Python Fundamentals
 * Backend Development
 * Django & Django REST Framework
 * APIs & Authentication
@@ -26,10 +26,6 @@ backend-genai-journey/
 ├── python-foundations/
 │   ├── functions/
 │   └── data-structures/
-│       ├── lists/
-│       ├── dictionaries/
-│       ├── tuples/
-│       └── sets/
 │
 ├── mini-projects/
 ├── django-basics/
@@ -45,7 +41,7 @@ backend-genai-journey/
 
 # 🧠 Python Foundations
 
-This section focuses on strengthening core programming concepts required for backend engineering and problem-solving.
+This section focuses on strengthening core programming concepts required for backend engineering and scalable application development.
 
 Topics include:
 
@@ -63,8 +59,11 @@ Topics include:
 
 ## Functions
 
+* Function basics
+* Parameters and arguments
 * Types of arguments
-
+* Return statements
+* Nested functions
 * Variable scopes
 
   * Local scope
@@ -72,90 +71,92 @@ Topics include:
   * Nonlocal scope
   * Built-in scope
 
-* Return statements
-
-* Nested functions
-
 ---
 
-## Lists
+## Data Structures
+
+### Lists
 
 * List basics and operations
 * List methods
-* List traversal
+* Traversal and manipulation
 * Searching and filtering logic
-* Counting and comparison problems
 * Duplicate handling
-* List-based problem solving
+* Comparison-based problems
 
-### Problems Practiced
+#### Problems Practiced
 
-* Largest number in list
-* Smallest number in list
+* Largest and smallest element
 * Sum of list elements
 * Count even and odd numbers
 * Remove duplicates
-* Find second largest number
+* Find second largest element
+* Manual sorting using swapping logic
 
 ---
 
-## Dictionaries
+### Dictionaries
 
-* Dictionary methods
+* Dictionary basics and methods
+* Traversing dictionaries
 * Frequency counting
-* Grouping and categorizing data
+* Grouping and categorization logic
+* Transformation logic
+* Validation and tracking logic
+
+#### Problems Practiced
+
+* Character frequency counting
+* Count occurrences
+* Grouping logic
 * Dictionary transformations
-* Backend-style data representation
-* Dictionary problem solving
+* Repeated character tracking
+* First non-repeating character detection
 
 ---
 
-## Tuples
+### Tuples
 
-* Tuple traversal and comparison logic
-* Tuple filtering and frequency counting
-* Tuple-string integration
-* Nested loop logic using tuples
-* Grouping and transformation logic
-* Character frequency analysis
-* Multi-step processing logic
+* Tuple basics and methods
+* Tuple immutability
+* Packing and unpacking
+* Traversal and filtering
+* Nested loop logic
+* String and tuple integration
 
-### Problems Practiced
+#### Problems Practiced
 
-* Pair-sum problems
 * Tuple comparison problems
-* Manual sorting logic
-* Palindrome checking
-* Word grouping logic
+* Palindrome tuple checking
+* Count vowels from tuple of words
+* Longest and shortest word detection
+* Group words by length
 * Character frequency analysis
 * Maximum and minimum vowel problems
 
 ---
 
-## Sets
+### Sets
 
 * Set basics and methods
 * Mathematical set operations
-* Duplicate removal using sets
-* Set comparison logic
-* Validation logic using `for-else`
-* Running maximum and minimum logic
-* Accumulator pattern
-* Classification and filtering logic
+* Membership checking
+* Filtering and transformation logic
+* Validation and classification logic
+* Manual implementation of set operations
+* String and set integration
+* Duplicate detection and tracking logic
 
-### Problems Practiced
+#### Problems Practiced
 
-* Common elements between sets
-* Unique elements from sets
-* Difference and symmetric difference problems
-* Subset and superset validation
-* Disjoint set checking
-* Maximum and minimum element in set
-* Sum of set elements
-* Even and odd classification
-* Largest even number in set
-
-More foundational concepts, algorithms, and problem-solving exercises are being added consistently.
+* Manual union, intersection, difference, and symmetric difference
+* Common and unique character detection
+* Vowel and consonant filtering
+* Largest and smallest value problems
+* Positive/negative classification
+* Divisibility filtering
+* Duplicate character detection
+* First repeating character detection
 
 ---
 
@@ -167,7 +168,7 @@ This repository will gradually include practical backend-oriented projects such 
 * Notes Manager
 * Calculator
 * CRUD Applications
-* Backend APIs
+* APIs
 * AI-Integrated Applications
 
 ---
@@ -189,7 +190,8 @@ with a strong focus on scalable backend systems, APIs, databases, and modern AI 
 * Consistent learning
 * Hands-on implementation
 * Backend-focused progression
-* Problem-solving practice
+* Problem-solving growth
+* Logical thinking development
 * Real-world project building
 * Public documentation of growth
 
