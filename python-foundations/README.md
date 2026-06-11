@@ -130,6 +130,27 @@ The focus of this section is to build strong programming fundamentals through co
 
 ---
 
+## File Handling
+
+* File basics
+* Opening and closing files
+* Reading files
+* File traversal
+* Relative file paths
+* Character-level processing
+* Classification and counting logic
+
+#### Problems Practiced
+
+* Count number of lines in file
+* Count number of words in file
+* Count number of characters in file
+* Count number of vowels in file
+* Count uppercase and lowercase letters in file
+* Count digits and spaces in file
+
+---
+
 # 🎯 Learning Focus
 
 * Core Python fundamentals
@@ -140,6 +161,8 @@ The focus of this section is to build strong programming fundamentals through co
 * Validation and classification logic
 * Transformation logic
 * Duplicate detection patterns
+* Text processing
+* File processing
 * Reusable algorithmic thinking
 * Backend-oriented programming foundations
 
@@ -151,8 +174,6 @@ The focus of this section is to build strong programming fundamentals through co
 python-foundations/
 │
 ├── functions/
-│   ├── function_basics.py
-│   ├── function_problems.py
 │   └── README.md
 │
 ├── data-structures/
@@ -160,6 +181,11 @@ python-foundations/
 │   ├── dictionaries/
 │   ├── tuples/
 │   ├── sets/
+│   └── README.md
+│
+├── file-handling/
+│   ├── sample_files/
+│   ├── file_basics.py
 │   └── README.md
 │
 └── README.md
@@ -175,7 +201,7 @@ This section represents the foundational stage of the backend and GenAI developm
 * APIs
 * Databases
 * Backend systems
-* Full stack development
-* AI-powered applications
+* Full Stack Development
+* AI-Powered Applications
 
 More concepts, problem-solving exercises, and backend-oriented implementations will be added consistently as the learning journey progresses.
