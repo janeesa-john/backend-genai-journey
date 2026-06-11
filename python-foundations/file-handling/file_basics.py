@@ -30,3 +30,97 @@ for word in s.split():
 print("Number of words:", count_word)
 
 f.close()
+
+print("------------------")
+
+
+# Count number of characters in file
+
+f = open("sample_files/sample.txt", 'r')
+
+content = f.read()
+
+count_ch = 0
+
+for ch in content:
+
+    count_ch += 1
+
+print("Number of characters:", count_ch)
+
+f.close()
+
+print("------------------")
+
+
+# Count number of vowels in file
+
+f = open("sample_files/sample.txt", 'r')
+
+content = f.read()
+
+count_vowel = 0
+
+for ch in content:
+
+    if ch.lower() in 'aeiou':
+
+        count_vowel += 1
+
+print("Number of vowels:", count_vowel)
+
+f.close()
+
+print("------------------")
+
+
+# Count uppercase and lowercase letters in file
+
+f = open("sample_files/sample.txt", 'r')
+
+content = f.read()
+
+upper = 0
+lower = 0
+
+for ch in content:
+
+    if ch.islower():
+
+        lower += 1
+
+    elif ch.isupper():
+
+        upper += 1
+
+print("Uppercase Letters:", upper)
+print("Lowercase Letters:", lower)
+
+f.close()
+
+print("------------------")
+
+
+# Count digits and spaces in file
+
+f = open("sample_files/sample.txt", 'r')
+
+count_space = 0
+count_digits = 0
+
+content = f.read()
+
+for ch in content:
+
+    if ch.isdigit():
+
+        count_digits += 1
+
+    elif ch.isspace():
+
+        count_space += 1
+
+print("Digits:", count_digits)
+print("Spaces:", count_space)
+
+f.close()
