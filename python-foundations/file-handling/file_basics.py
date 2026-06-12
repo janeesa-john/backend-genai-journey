@@ -124,3 +124,76 @@ print("Digits:", count_digits)
 print("Spaces:", count_space)
 
 f.close()
+
+print("------------------")
+
+
+# Count vowels and consonants in file
+
+f = open("sample_files/sample.txt", 'r')
+
+content = f.read()
+
+vowels = 0
+consonants = 0
+
+for ch in content:
+
+    if ch.lower() in 'aeiou':
+
+        vowels += 1
+
+    elif ch.isalpha() and ch.lower() not in 'aeiou':
+
+        consonants += 1
+
+print("Vowels:", vowels)
+print("Consonants:", consonants)
+
+f.close()
+
+print("------------------")
+
+
+# Count special characters in file
+
+f = open("sample_files/text.txt", 'r')
+
+content = f.read()
+
+special_ch = 0
+
+for ch in content:
+
+    if not ch.isalpha() and not ch.isspace() and not ch.isdigit():
+
+        special_ch += 1
+
+print("Special Characters:", special_ch)
+
+f.close()
+
+print("------------------")
+
+
+# Count frequency of characters in file
+
+freq = {}
+
+f = open("sample_files/sample.txt", 'r')
+
+content = f.read()
+
+for ch in content:
+
+    if ch in freq:
+
+        freq[ch] += 1
+
+    else:
+
+        freq[ch] = 1
+
+print(freq)
+
+f.close()
