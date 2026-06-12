@@ -4,7 +4,7 @@ This folder contains Python programs focused on understanding and practicing fil
 
 File handling is an important backend development concept used for reading, writing, and processing data from files.
 
-The goal of this section is to strengthen file traversal, counting logic, text processing, filtering techniques, and backend-oriented file-processing skills.
+The goal of this section is to strengthen file traversal, counting logic, filtering techniques, frequency analysis, and backend-oriented file-processing skills.
 
 ## Topics Covered
 
@@ -18,6 +18,7 @@ The goal of this section is to strengthen file traversal, counting logic, text p
 * Relative file paths
 * Character-level processing
 * Classification and counting logic
+* Character frequency analysis
 * File problem solving
 
 ## Programs
@@ -42,6 +43,9 @@ The goal of this section is to strengthen file traversal, counting logic, text p
 * Count number of vowels in file
 * Count uppercase and lowercase letters in file
 * Count digits and spaces in file
+* Count vowels and consonants in file
+* Count special characters in file
+* Count frequency of characters in file
 
 ## Key Concepts Learned
 
@@ -54,6 +58,8 @@ The goal of this section is to strengthen file traversal, counting logic, text p
 * Counting logic
 * Filtering logic
 * Classification logic
+* Character frequency counting
+* Dictionary integration with file processing
 * Relative file paths
 * String processing from files
 * Reusable traversal patterns
@@ -64,10 +70,11 @@ The goal of this section is to strengthen file traversal, counting logic, text p
 file-handling/
 │
 ├── sample_files/
-│   └── sample.txt
+│   ├── sample.txt
+│   └── text.txt
 │
 ├── file_basics.py
 └── README.md
 ```
 
-More file handling concepts, traversal techniques, text-processing exercises, and backend-oriented file-processing problems will be added as the learning journey progresses.
+More file handling concepts, traversal techniques, frequency-analysis exercises, and backend-oriented file-processing problems will be added as the learning journey progresses.
