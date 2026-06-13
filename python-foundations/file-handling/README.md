@@ -19,6 +19,7 @@ The goal of this section is to strengthen file traversal, counting logic, filter
 * Character-level processing
 * Classification and counting logic
 * Character frequency analysis
+* Word frequency analysis
 * File problem solving
 
 ## Programs
@@ -46,6 +47,9 @@ The goal of this section is to strengthen file traversal, counting logic, filter
 * Count vowels and consonants in file
 * Count special characters in file
 * Count frequency of characters in file
+* Count frequency of words in file
+* Find most frequent word in file
+* Find least frequent word in file
 
 ## Key Concepts Learned
 
@@ -59,7 +63,10 @@ The goal of this section is to strengthen file traversal, counting logic, filter
 * Filtering logic
 * Classification logic
 * Character frequency counting
+* Word frequency counting
 * Dictionary integration with file processing
+* Maximum frequency analysis
+* Minimum frequency analysis
 * Relative file paths
 * String processing from files
 * Reusable traversal patterns
@@ -71,7 +78,8 @@ file-handling/
 │
 ├── sample_files/
 │   ├── sample.txt
-│   └── text.txt
+│   ├── text.txt
+│   └── data.txt
 │
 ├── file_basics.py
 └── README.md
