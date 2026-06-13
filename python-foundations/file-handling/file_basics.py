@@ -197,3 +197,100 @@ for ch in content:
 print(freq)
 
 f.close()
+
+print("------------------")
+
+
+# Count frequency of words in file
+
+f = open("sample_files/data.txt", 'r')
+
+words = f.read().split()
+
+freq = {}
+
+for word in words:
+
+    if word in freq:
+
+        freq[word] += 1
+
+    else:
+
+        freq[word] = 1
+
+print(freq)
+
+f.close()
+
+print("------------------")
+
+
+# Find most frequent word in file
+
+f = open("sample_files/data.txt", 'r')
+
+words = f.read().split()
+
+freq = {}
+
+max_count = 0
+most_word = ''
+
+for word in words:
+
+    if word in freq:
+
+        freq[word] += 1
+
+    else:
+
+        freq[word] = 1
+
+for word, count in freq.items():
+
+    if count > max_count:
+
+        max_count = count
+        most_word = word
+
+print("Most Frequent Word:", most_word)
+print("Frequency:", max_count)
+
+f.close()
+
+print("------------------")
+
+
+# Find least frequent word in file
+
+f = open("sample_files/data.txt", 'r')
+
+words = f.read().split()
+
+freq = {}
+
+min_count = float('inf')
+least_word = ''
+
+for word in words:
+
+    if word in freq:
+
+        freq[word] += 1
+
+    else:
+
+        freq[word] = 1
+
+for word, count in freq.items():
+
+    if count < min_count:
+
+        min_count = count
+        least_word = word
+
+print("Least Frequent Word:", least_word)
+print("Frequency:", min_count)
+
+f.close()
