@@ -294,3 +294,109 @@ print("Least Frequent Word:", least_word)
 print("Frequency:", min_count)
 
 f.close()
+
+print("------------------")
+
+
+# Find all repeated words in file
+
+f = open("sample_files/sample.txt", 'r')
+
+freq = {}
+repeated = set()
+
+words = f.read().split()
+
+for word in words:
+
+    if word in freq:
+
+        freq[word] += 1
+
+    else:
+
+        freq[word] = 1
+
+for word, count in freq.items():
+
+    if count > 1:
+
+        repeated.add(word)
+
+print(repeated)
+
+f.close()
+
+print("------------------")
+
+
+# Find all unique words in file
+
+f = open("sample_files/sample.txt", 'r')
+
+freq = {}
+unique = set()
+
+words = f.read().split()
+
+for word in words:
+
+    if word in freq:
+
+        freq[word] += 1
+
+    else:
+
+        freq[word] = 1
+
+for word, count in freq.items():
+
+    if count == 1:
+
+        unique.add(word)
+
+print(unique)
+
+f.close()
+
+print("------------------")
+
+
+# Find longest word in file
+
+f = open("sample_files/sample.txt", 'r')
+
+words = f.read().split()
+
+longest = ''
+
+for word in words:
+
+    if len(word) > len(longest):
+
+        longest = word
+
+print(longest)
+
+f.close()
+
+print("------------------")
+
+
+# Find shortest word in file
+
+f = open("sample_files/sample.txt", 'r')
+
+words = f.read().split()
+
+shortest = words[0]
+
+for word in words:
+
+    if len(word) < len(shortest):
+
+        shortest = word
+
+print(shortest)
+
+f.close()
