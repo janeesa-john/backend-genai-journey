@@ -4,7 +4,7 @@ This folder contains Python programs focused on understanding and practicing fil
 
 File handling is an important backend development concept used for reading, writing, and processing data from files.
 
-The goal of this section is to strengthen file traversal, counting logic, filtering techniques, frequency analysis, text processing, and backend-oriented file-processing skills.
+The goal of this section is to strengthen file traversal, counting logic, filtering techniques, frequency analysis, text processing, set operations, and backend-oriented file-processing skills.
 
 ## Topics Covered
 
@@ -20,7 +20,8 @@ The goal of this section is to strengthen file traversal, counting logic, filter
 * Classification and counting logic
 * Character frequency analysis
 * Word frequency analysis
-* Word filtering using sets
+* Set operations with file data
+* File comparison
 * Length-based word analysis
 * File problem solving
 
@@ -40,6 +41,8 @@ The goal of this section is to strengthen file traversal, counting logic, filter
 
 ## Problems Practiced
 
+### Basic Counting Problems
+
 * Count number of lines in file
 * Count number of words in file
 * Count number of characters in file
@@ -48,12 +51,27 @@ The goal of this section is to strengthen file traversal, counting logic, filter
 * Count digits and spaces in file
 * Count vowels and consonants in file
 * Count special characters in file
+
+### Frequency Analysis Problems
+
 * Count frequency of characters in file
 * Count frequency of words in file
 * Find most frequent word in file
 * Find least frequent word in file
+
+### Filtering Problems
+
 * Find all repeated words in file
 * Find all unique words in file
+* Count number of unique words in file
+
+### Set-Based Problems
+
+* Count number of distinct words in file
+* Find common words between two files
+
+### Length Analysis Problems
+
 * Find longest word in file
 * Find shortest word in file
 
@@ -71,11 +89,13 @@ The goal of this section is to strengthen file traversal, counting logic, filter
 * Character frequency counting
 * Word frequency counting
 * Dictionary integration with file processing
-* Set filtering using frequency analysis
+* Set integration with file processing
+* Set-based file comparison
 * Maximum frequency analysis
 * Minimum frequency analysis
 * Longest word detection
 * Shortest word detection
+* Distinct value extraction
 * Relative file paths
 * String processing from files
 * Reusable traversal patterns
@@ -94,4 +114,4 @@ file-handling/
 └── README.md
 ```
 
-More file handling concepts, traversal techniques, frequency-analysis exercises, filtering techniques, and backend-oriented file-processing problems will be added as the learning journey progresses.
+More file handling concepts, traversal techniques, frequency-analysis exercises, set operations, and backend-oriented file-processing problems will be added as the learning journey progresses.
