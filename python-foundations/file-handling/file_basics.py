@@ -400,3 +400,82 @@ for word in words:
 print(shortest)
 
 f.close()
+
+print("------------------")
+
+
+# Count number of unique words in file
+
+f = open("sample_files/data.txt", 'r')
+
+words = f.read().split()
+
+freq = {}
+
+unique = 0
+
+for word in words:
+
+    if word in freq:
+
+        freq[word] += 1
+
+    else:
+
+        freq[word] = 1
+
+for word, count in freq.items():
+
+    if count == 1:
+
+        unique += 1
+
+print("Number of unique words:", unique)
+
+f.close()
+
+print("------------------")
+
+
+# Count number of distinct words in file
+
+f = open("sample_files/data.txt", 'r')
+
+words = f.read().split()
+
+distinct = set(words)
+
+print("Number of distinct words:", len(distinct))
+
+f.close()
+
+print("------------------")
+
+
+# Find common words between two files
+
+f = open("sample_files/sample.txt", 'r')
+
+words1 = f.read().split()
+
+set1 = set(words1)
+
+f.close()
+
+s = open("sample_files/data.txt", 'r')
+
+words2 = s.read().split()
+
+set2 = set(words2)
+
+s.close()
+
+common = set()
+
+for word in set1:
+
+    if word in set2:
+
+        common.add(word)
+
+print("Common Words:", common)
