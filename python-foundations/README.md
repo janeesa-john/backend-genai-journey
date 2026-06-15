@@ -139,8 +139,13 @@ The focus of this section is to build strong programming fundamentals through co
 * Relative file paths
 * Character-level processing
 * Classification and counting logic
+* Frequency analysis
+* Set operations with file data
+* File comparison
 
-#### Problems Practiced
+### Problems Practiced
+
+#### Basic Counting Problems
 
 * Count number of lines in file
 * Count number of words in file
@@ -148,6 +153,31 @@ The focus of this section is to build strong programming fundamentals through co
 * Count number of vowels in file
 * Count uppercase and lowercase letters in file
 * Count digits and spaces in file
+* Count vowels and consonants in file
+* Count special characters in file
+
+#### Frequency Analysis Problems
+
+* Count frequency of characters in file
+* Count frequency of words in file
+* Find most frequent word in file
+* Find least frequent word in file
+
+#### Filtering Problems
+
+* Find all repeated words in file
+* Find all unique words in file
+* Count number of unique words in file
+
+#### Set-Based Problems
+
+* Count number of distinct words in file
+* Find common words between two files
+
+#### Length Analysis Problems
+
+* Find longest word in file
+* Find shortest word in file
 
 ---
 
@@ -163,6 +193,7 @@ The focus of this section is to build strong programming fundamentals through co
 * Duplicate detection patterns
 * Text processing
 * File processing
+* Set operations
 * Reusable algorithmic thinking
 * Backend-oriented programming foundations
 
@@ -200,7 +231,7 @@ This section represents the foundational stage of the backend and GenAI developm
 * Django
 * APIs
 * Databases
-* Backend systems
+* Backend Systems
 * Full Stack Development
 * AI-Powered Applications
 
