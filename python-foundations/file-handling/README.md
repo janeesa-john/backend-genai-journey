@@ -4,7 +4,7 @@ This folder contains Python programs focused on understanding and practicing fil
 
 File handling is an important backend development concept used for reading, writing, and processing data from files.
 
-The goal of this section is to strengthen file traversal, counting logic, filtering techniques, frequency analysis, text processing, set operations, and backend-oriented file-processing skills.
+The goal of this section is to strengthen file traversal, counting logic, filtering techniques, frequency analysis, text processing, set operations, file comparison, and backend-oriented file-processing skills.
 
 ## Topics Covered
 
@@ -21,7 +21,7 @@ The goal of this section is to strengthen file traversal, counting logic, filter
 * Character frequency analysis
 * Word frequency analysis
 * Set operations with file data
-* File comparison
+* File comparison techniques
 * Length-based word analysis
 * File problem solving
 
@@ -69,6 +69,10 @@ The goal of this section is to strengthen file traversal, counting logic, filter
 
 * Count number of distinct words in file
 * Find common words between two files
+* Find words present in first file but not in second file
+* Find words present in second file but not in first file
+* Check whether two files have exactly the same words
+* Check whether all words of first file exist in second file
 
 ### Length Analysis Problems
 
@@ -90,6 +94,10 @@ The goal of this section is to strengthen file traversal, counting logic, filter
 * Word frequency counting
 * Dictionary integration with file processing
 * Set integration with file processing
+* Set difference operations
+* Set intersection concepts
+* Set equality comparison
+* Subset validation using `issubset()`
 * Set-based file comparison
 * Maximum frequency analysis
 * Minimum frequency analysis
@@ -114,4 +122,4 @@ file-handling/
 └── README.md
 ```
 
-More file handling concepts, traversal techniques, frequency-analysis exercises, set operations, and backend-oriented file-processing problems will be added as the learning journey progresses.
+More file handling concepts, traversal techniques, frequency-analysis exercises, set operations, file-comparison techniques, and backend-oriented file-processing problems will be added as the learning journey progresses.
