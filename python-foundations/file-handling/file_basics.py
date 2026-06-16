@@ -479,3 +479,107 @@ for word in set1:
         common.add(word)
 
 print("Common Words:", common)
+
+print("------------------")
+
+
+# Find words present in first file but not in second file
+
+f = open("sample_files/sample.txt", 'r')
+
+words = f.read().split()
+
+new = set()
+
+h = open("sample_files/data.txt", 'r')
+
+content = h.read().split()
+
+for word in words:
+
+    if word not in content:
+
+        new.add(word)
+
+print(new)
+
+f.close()
+h.close()
+
+print("------------------")
+
+
+# Find words present in second file but not in first file
+
+f = open("sample_files/sample.txt", 'r')
+
+words = f.read().split()
+
+set1 = set(words)
+
+h = open("sample_files/data.txt", 'r')
+
+content = h.read().split()
+
+set2 = set(content)
+
+print(set2 - set1)
+
+f.close()
+h.close()
+
+print("------------------")
+
+
+# Check whether two files have exactly the same words
+
+f = open("sample_files/sample.txt", 'r')
+
+words = f.read().split()
+
+set1 = set(words)
+
+h = open("sample_files/data.txt", 'r')
+
+content = h.read().split()
+
+set2 = set(content)
+
+if set1 == set2:
+
+    print("True")
+
+else:
+
+    print("False")
+
+f.close()
+h.close()
+
+print("------------------")
+
+
+# Check whether all words of first file exist in second file (subset check)
+
+f = open("sample_files/sample.txt", 'r')
+
+words = f.read().split()
+
+set1 = set(words)
+
+h = open("sample_files/data.txt", 'r')
+
+content = h.read().split()
+
+set2 = set(content)
+
+if set1.issubset(set2):
+
+    print("True")
+
+else:
+
+    print("False")
+
+f.close()
+h.close()
