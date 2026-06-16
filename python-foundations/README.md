@@ -141,7 +141,7 @@ The focus of this section is to build strong programming fundamentals through co
 * Classification and counting logic
 * Frequency analysis
 * Set operations with file data
-* File comparison
+* File comparison techniques
 
 ### Problems Practiced
 
@@ -173,6 +173,10 @@ The focus of this section is to build strong programming fundamentals through co
 
 * Count number of distinct words in file
 * Find common words between two files
+* Find words present in first file but not in second file
+* Find words present in second file but not in first file
+* Check whether two files have exactly the same words
+* Check whether all words of first file exist in second file
 
 #### Length Analysis Problems
 
@@ -194,6 +198,7 @@ The focus of this section is to build strong programming fundamentals through co
 * Text processing
 * File processing
 * Set operations
+* File comparison techniques
 * Reusable algorithmic thinking
 * Backend-oriented programming foundations
 
